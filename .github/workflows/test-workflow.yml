@@ -14,7 +14,7 @@ jobs:
         python-version: [3.9]
 
     env:
-      DATABASE_PATH: { { secrets.DATABASE_PATH } }
+      DATABASE_PATH: ${{ secrets.DATABASE_PATH }}
 
     steps:
       - name: Checkout repository
