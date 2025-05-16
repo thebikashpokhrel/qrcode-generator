@@ -1,5 +1,3 @@
-readme_content = """
-
 # QR Code Generator API 🔗
 
 ## 📌 Project Introduction
